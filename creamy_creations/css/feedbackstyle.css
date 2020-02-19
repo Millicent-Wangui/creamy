@@ -1,0 +1,52 @@
+/*start section-feedback*/
+body {
+    padding:0;
+    margin-top: 0;
+    background-image:url("../images/chocolate cake.jpg");
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    background-position:center;
+    font-family: sans-serif;
+}
+.contact-title h3{
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 4px;
+    transition: all 4s ease-in-out;
+    color: white;
+}
+form{
+    margin-top: 50px;
+    transition:all 4s ease-in-out ;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #88e230;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display:flex;
+}
+form{
+    height: 45px;
+
+}
+.form-control-submit{
+    background: blueviolet;
+    border-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+.form-control-submit:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+/*end section-feedback*/

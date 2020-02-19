@@ -1,0 +1,202 @@
+body{
+    background-color: rgba(138, 43, 226, 0.04);
+}
+/*start of section-navbar*/
+#section-navbar{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    font-size: 1.0rem;
+    font-weight:bold;
+    background-color: rgba(255, 215, 0, 0.29) !important;
+}
+#section-navbar .navbar-brand{
+    padding-left: 1.0rem;
+    font-family: Algerian, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-kerning: auto;
+    letter-spacing: 0.2rem;
+    color: black;
+    padding-top: 10px;
+}
+#section-navbar .navbar-brand:hover{
+    color: blueviolet;
+}
+.navbar-nav .nav-item{
+    padding-top: 10px;
+    padding-right: 40px;
+    font-size: 0.9rem;
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+/*end of section-navbar*/
+/*start of carousel*/
+#carouselExampleFade img{
+    height: 90vh;
+    width: 100%;
+}
+/*end of carousel*/
+/*start of section-types*/
+#section-types .card:hover{
+    color: blueviolet;
+    border: 2px solid black;
+}
+#section-types .card{
+    margin-top: 10px;
+}
+#section-types h3{
+    background-color:gold;
+    padding-top: 5px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: Algerian, serif;
+    font-weight: bold;
+}
+#section-types h3:hover{
+    color: blueviolet;
+}
+#section-types .card-body h4{
+    text-align: center;
+    font-weight: bold;
+    font-size:1.5rem
+}
+#section-types .card-body h4:hover{
+    color: rgba(255, 215, 0, 0.86);
+}
+#section-types img{
+    height: 50vh;
+    width:100%;
+}
+#section-types .card-info{
+    text-align: center;
+}
+/*end of section-types*/
+/*start of section-flavours*/
+#section-flavours .Flavour{
+    background-color:gold;
+    padding-top: 5px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: Algerian, serif;
+    font-weight: bold;
+}
+#section-flavours .Flavour:hover{
+    color: blueviolet;
+}
+#section-flavours .card{
+    margin-top: 25px;
+}
+#section-flavours .card:hover{
+    color: blueviolet;
+    border: 2px solid black;
+}
+#section-flavours .card-body h4{
+    text-align: center;
+    font-weight: bold;
+    font-size:1.5rem
+}
+#section-flavours .card-body h4:hover{
+    color: rgba(255, 215, 0, 0.86);
+}
+#section-flavours img{
+    height: 65vh;
+    width:100%;
+}
+/*end of section-flavours*/
+#section-about-us{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+}
+#section-about-us .about-us{
+    background-color:gold;
+    padding-top: 5px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: Algerian, serif;
+    font-weight: bold;
+
+}
+#section-about-us .about-us:hover{
+    color: blueviolet;
+}
+#section-about-us p{
+    font-size: 1.5rem;
+}
+/*end section about-us*/
+/*start section-clients*/
+#section-clients h3{
+    background-color:gold;
+    padding-top: 5px;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: Algerian, serif;
+    font-weight: bold;
+}
+#section-clients h3:hover{
+    color: blueviolet;
+}
+#section-clients .cardy img{
+    border-radius: 50%;
+    height: 35vh;
+    width: 95%;
+}
+#section-clients.cardy-text{
+    font-weight: bold;
+    font-size: 1.0rem;
+}
+#section-clients .cardy{
+    padding-top: 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+#section-clients .cardy:hover{
+    color: blueviolet;
+}
+#section-clients .btn-outline-warning{
+    margin-top: 25px;
+    float:right;
+}
+/*end section-clients*/
+/*start of footer*/
+
+#section-footer{
+    background-color: rgba(138, 43, 226, 0.04);
+    text-align: center;
+    font-size: .9rem;
+    font-weight: bold;
+    padding-top:30px;
+}
+#section-footer h1{
+    background-color:gold;
+    color:black;
+    text-align: center;
+    display:block;
+    flex: auto;
+    margin-top:60px;
+    padding-top: 5px;
+    font-size: 2.0rem;
+    font-family: Algerian, serif;
+    font-weight: bold;
+}
+#section-footer h1:hover{
+    color: blueviolet;
+}
+#section-footer a{
+    color:blueviolet;
+
+}
+/*end of footer*/
